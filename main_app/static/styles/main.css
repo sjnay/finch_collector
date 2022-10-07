@@ -1,0 +1,72 @@
+
+html{
+    background-color: rgb(160, 174, 155);
+
+}
+body{
+    background-color: rgb(160, 174, 155);
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(255, 252, 252)
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.button{
+
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(67, 81, 67);
+    color:rgba(255, 255, 255, 0.696);
+
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.card{
+    display: grid;
+    grid-template-rows: .75fr .25fr;
+    row-gap: 0;
+    margin: 15px;
+    width:200px
+  
+    
+}
+
+
+.card-image{
+    grid-row:1;
+    background-color:rgb(86, 99, 86); ;
+
+}
+
+.card-header p{
+    grid-row:2;
+    background-color: rgb(86, 99, 86);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.696);
+    
+}
+.new-nood-container{
+    height:200px;
+    width:200px;
+    display: flex;
+}
+
+
+
+.new-nood-container input{
+    padding-top: 5px;
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    
+}
+.detail__img{
+    height: 200px;
+    width: 200px;
+}
